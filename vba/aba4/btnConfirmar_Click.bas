@@ -3,7 +3,10 @@
 ' Autores: Luis Felipe Porto e Rodrigo da Silva Oliveira
 ' Instituição: Faculdade de Tecnologia de São José dos Campos - Prof. Jessen Vidal (FATEC SJC)
 ' Curso: Tecnologia em Gestão da Produção Industrial – 6º Semestre
-' Descrição:
+' Descrição: Esta macro é acionada ao clicar no botão "Confirmar" do UserForm de baixa de estoque.
+' Ela registra a retirada de um item, adicionando uma nova linha à aba "Estoque" com a quantidade
+' negativa, nome do item, marca/fornecedor, solicitante, data/hora e Ticket ID. Antes disso,
+' verifica se o Ticket ID existe e se há saldo disponível suficiente no estoque para a baixa.
 ' ============================================================
 
 Private Sub btnConfirmar_Click()
