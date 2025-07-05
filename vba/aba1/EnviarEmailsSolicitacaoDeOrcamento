@@ -3,7 +3,6 @@
 ' Autores: Luis Felipe Porto e Rodrigo da Silva Oliveira
 ' Instituição: Faculdade de Tecnologia de São José dos Campos - Prof. Jessen Vidal (FATEC SJC)
 ' Curso: Tecnologia em Gestão da Produção Industrial – 6º Semestre
-'
 ' Descrição: Esta macro percorre a tabela da aba "Solicitação de orçamento" e, para cada item 
 ' com o status "Solicitar orçamento", gera um link personalizado para um formulário do Google Forms 
 ' com os campos Nome, Marca/Fornecedor e Quantidade já preenchidos. Em seguida, envia um e-mail 
