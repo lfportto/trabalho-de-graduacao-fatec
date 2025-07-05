@@ -3,7 +3,12 @@
 ' Autores: Luis Felipe Porto e Rodrigo da Silva Oliveira
 ' Instituição: Faculdade de Tecnologia de São José dos Campos - Prof. Jessen Vidal (FATEC SJC)
 ' Curso: Tecnologia em Gestão da Produção Industrial – 6º Semestre
-' Descrição:
+' Descrição: Este módulo contém três procedimentos:
+' 1. ImportarRespostasDoGoogleForms: Baixa automaticamente as respostas do Google Forms
+'    e as insere na aba "Itens orçados", evitando duplicidades via Ticket ID. Também atualiza
+'    o status do pedido na aba "Solicitação de orçamento" para "Pedido orçado".
+' 2. IniciarAtualizacaoAutomatica: Agenda a execução da macro de importação a cada 1 hora.
+' 3. CancelarAtualizacaoAutomatica: Cancela um agendamento previamente configurado.
 ' ============================================================
 
 Sub ImportarRespostasDoGoogleForms()
