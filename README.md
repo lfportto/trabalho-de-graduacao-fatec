@@ -30,7 +30,7 @@ O objetivo do projeto é automatizar e padronizar o processo de solicitação de
 - `Sub ApagarLinhasFinais():` Remove linhas vazias residuais da tabela.
 - `Sub telacheia() / Sub telanormal():` Ajustam o modo de visualização da planilha (tela cheia / normal).
 
-🔹 **Google Apps Script** 
+🔹 **Google Apps Script**  
 `Gerador de ticket ID.gs:` Código executado automaticamente após o envio de cada resposta no Google Forms. Gera um código identificador único (Ticket ID) para rastrear o pedido ao longo do fluxo.
 
 # Resultado esperado
