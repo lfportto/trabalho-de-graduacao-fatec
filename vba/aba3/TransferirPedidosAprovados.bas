@@ -7,7 +7,6 @@
 ' ============================================================
 
 Sub TransferirPedidosAprovados()
-
     Dim wsOrigem As Worksheet
     Dim wsDestino As Worksheet
     Dim ultimaLinhaOrigem As Long, ultimaLinhaDestino As Long
