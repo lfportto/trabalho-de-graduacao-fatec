@@ -10,7 +10,6 @@
 ' ============================================================
 
 Sub MarcarPedidoComoRecebido()
-
     Dim ws As Worksheet
     Dim ticketIDBusca As String
     Dim ticketIDPlanilha As String
