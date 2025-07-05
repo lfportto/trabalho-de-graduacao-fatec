@@ -3,11 +3,13 @@
 ' Autores: Luis Felipe Porto e Rodrigo da Silva Oliveira
 ' Instituição: Faculdade de Tecnologia de São José dos Campos - Prof. Jessen Vidal (FATEC SJC)
 ' Curso: Tecnologia em Gestão da Produção Industrial – 6º Semestre
-' Descrição:
+' Descrição: Esta macro importa na aba "Estoque" todos os itens da aba "Pedidos aprovados"
+' que estão com o status "Recebido" e ainda não foram transferidos. Os dados são copiados com base
+' no Ticket ID, evitando duplicidades. A coluna "Solicitante" é deixada em branco, e a data da entrega
+' é mantida conforme registrada na aba de origem.
 ' ============================================================
 
-Sub TransferirParaEstoque()
-
+Sub ImportarParaEstoque()
     Dim wsOrigem As Worksheet
     Dim wsDestino As Worksheet
     Dim ultimaLinhaOrigem As Long, ultimaLinhaDestino As Long
