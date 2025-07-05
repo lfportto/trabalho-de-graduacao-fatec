@@ -3,7 +3,10 @@
 ' Autores: Luis Felipe Porto e Rodrigo da Silva Oliveira
 ' Instituição: Faculdade de Tecnologia de São José dos Campos - Prof. Jessen Vidal (FATEC SJC)
 ' Curso: Tecnologia em Gestão da Produção Industrial – 6º Semestre
-' Descrição:
+' Descrição: Esta macro transfere automaticamente os itens aprovados na aba "Itens orçados"
+' para a aba "Pedidos aprovados". A macro verifica se o status do pedido é "Aprovado" e
+' se ainda não foi transferido, evitando duplicidade com base no Ticket ID.
+' Ao transferir, marca o item como "Não recebido" e registra que já foi processado.
 ' ============================================================
 
 Sub TransferirPedidosAprovados()
