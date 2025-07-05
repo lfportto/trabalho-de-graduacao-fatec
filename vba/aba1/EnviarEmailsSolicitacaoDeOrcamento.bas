@@ -102,3 +102,7 @@ Sub EnviarEmailsSolicitacaoDeOrcamento()
         MsgBox "Nenhum item com status 'Solicitar orçamento'.", vbInformation
     End If
 End Sub
+
+Function URLEncode(str As String) As String
+    URLEncode = Replace(str, " ", "+")
+End Function
