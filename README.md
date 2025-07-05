@@ -11,20 +11,20 @@ O objetivo do projeto é automatizar e padronizar o processo de solicitação de
 
 # Estrutura do projeto
 🔹 **Aba 1 — Solicitação de Orçamento**  
-- `Sub EnviarEmailsSolicitacaoDeOrcamento():` Responsável por enviar e-mails com links personalizados para preenchimento do Google Forms para cada item com status "Solicitar orçamento".
-- `Sub registrarNovoItem():` Registra um novo item de solicitação na planilha, a partir dos campos preenchidos pelo solicitante.  
+- [`Sub EnviarEmailsSolicitacaoDeOrcamento():`](vba/aba1/EnviarEmailsSolicitacaoDeOrcamento.bas) Responsável por enviar e-mails com links personalizados para preenchimento do Google Forms para cada item com status "Solicitar orçamento".
+- [`Sub registrarNovoItem():`](vba/aba1/registrarNovoItem.bas) Registra um novo item de solicitação na planilha, a partir dos campos preenchidos pelo solicitante.  
 
 🔹 **Aba 2 — Pedidos Orçados**  
-- `Sub ImportarRespostasDoGoogleForms():` Importa automaticamente as respostas do formulário para a planilha, gerando novos registros e atualizando o status dos pedidos.
+- [`Sub ImportarRespostasDoGoogleForms():`](vba/aba2/ImportarRespostasDoGoogleForms.bas) Importa automaticamente as respostas do formulário para a planilha, gerando novos registros e atualizando o status dos pedidos.
 
 🔹 **Aba 3 — Pedidos Aprovados**  
-- `Sub TransferirPedidosAprovados():` Transfere os pedidos aprovados da aba anterior para esta aba, com controle por Ticket ID.
-- `Sub MarcarPedidoComoRecebido():` Permite que o usuário registre o recebimento de um pedido com base no Ticket ID.
+- [`Sub TransferirPedidosAprovados():`](vba/aba3/TransferirPedidosAprovados.bas) Transfere os pedidos aprovados da aba anterior para esta aba, com controle por Ticket ID.
+- [`Sub MarcarPedidoComoRecebido():`](vba/aba3/MarcarPedidoComoRecebido.bas) Permite que o usuário registre o recebimento de um pedido com base no Ticket ID.
 
 🔹 **Aba 4 — Estoque**  
-- `Sub TransferirParaEstoque():` Move os itens recebidos para o controle de estoque, garantindo não duplicidade pelo Ticket ID.
-- `Sub RegistrarBaixaEstoque():` Exibe um formulário para registrar baixas no estoque (retiradas de materiais).
-- `Private Sub btnConfirmar_Click():` Lógica do botão "Confirmar" no UserForm de baixa, que valida o saldo disponível e registra a saída.
+- [`Sub TransferirParaEstoque():`](vba/aba4/TransferirParaEstoque.bas) Move os itens recebidos para o controle de estoque, garantindo não duplicidade pelo Ticket ID.
+- [`Sub RegistrarBaixaEstoque():`](vba/aba4/RegistrarBaixaEstoque.bas) Exibe um formulário para registrar baixas no estoque (retiradas de materiais).
+- [`Private Sub btnConfirmar_Click():`](vba/aba4/btnConfirmar_Click.bas) Lógica do botão "Confirmar" no UserForm de baixa, que valida o saldo disponível e registra a saída.
 
 🔹 **Macros Gerais (todas as abas)**  
 - `Sub ApagarLinhasFinais():` Remove linhas vazias residuais da tabela.
