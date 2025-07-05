@@ -3,7 +3,10 @@
 ' Autores: Luis Felipe Porto e Rodrigo da Silva Oliveira
 ' Instituição: Faculdade de Tecnologia de São José dos Campos - Prof. Jessen Vidal (FATEC SJC)
 ' Curso: Tecnologia em Gestão da Produção Industrial – 6º Semestre
-' Descrição:
+' Descrição: Esta macro permite ao usuário marcar manualmente um pedido como "Recebido"
+' na aba "Pedidos aprovados", a partir da inserção do Ticket ID em um InputBox.
+' Após localizar o pedido correspondente, a macro atualiza o status e insere a data/hora
+' do recebimento, garantindo a rastreabilidade da entrega.
 ' ============================================================
 
 Sub MarcarPedidoComoRecebido()
