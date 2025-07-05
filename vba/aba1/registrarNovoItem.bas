@@ -3,7 +3,11 @@
 ' Autores: Luis Felipe Porto e Rodrigo da Silva Oliveira
 ' Instituição: Faculdade de Tecnologia de São José dos Campos - Prof. Jessen Vidal (FATEC SJC)
 ' Curso: Tecnologia em Gestão da Produção Industrial – 6º Semestre
-' Descrição:
+' Descrição: Esta macro registra um novo item de solicitação de orçamento.
+' Ela copia os dados inseridos nos campos de entrada (intervalo C5:E5) para a
+' próxima linha disponível da tabela a partir da célula C8, define o status
+' como "Solicitar orçamento", limpa os campos de entrada e confirma a operação
+' com uma mensagem ao usuário.
 ' ============================================================
 
 Sub registrarNovoItem()
