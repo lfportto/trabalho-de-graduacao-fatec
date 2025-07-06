@@ -1,6 +1,6 @@
 # Purchase Request, Receiving, and Inventory Management System
 📄 [Versão em português](README.md)
-## About
+## Description
 This repository contains the code developed in `VBA` (Visual Basic for Applications) and `Google Apps Script` as part of the Graduation Project presented to the Faculdade de Tecnologia de São José dos Campos – Prof. Jessen Vidal (FATEC SJC), during the 5th and 6th semesters of the Industrial Production Management Technology course, by students Luis Felipe Porto and Rodrigo da Silva Oliveira.
 
 The project aims to automate and standardize the process of purchase requests, quotations, approvals, receiving, and inventory control of materials for a small-sized company, through a spreadsheet integrated with forms and a management dashboard for monitoring and interaction in Power BI.
