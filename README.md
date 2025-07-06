@@ -44,3 +44,9 @@ Esse sistema proporciona:
 - Maior rastreabilidade dos pedidos;
 - Controle em tempo real do estoque;
 - Visualização gerencial através do Power BI.
+
+## Licença
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
+## Tags
+`#gestao` `#monitoramento` `#analisededados` `#dados` `#automacao` `#processos` `#estoque` `#inventario` `#orcamento` `#powerbi` `#bi` `#businessintelligence` `#dashboard`
