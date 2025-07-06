@@ -1,17 +1,19 @@
 # Sistema de Gestão de Solicitação de Compras, Recebimento e Estoque
+📄 [English version](README_English.md)
+## Descrição
 Este repositório contém os códigos desenvolvidos em `VBA` (Visual Basic for Applications) e `Google Apps Script` como parte do Trabalho de Graduação apresentado à Faculdade de Tecnologia de São José dos Campos – Prof. Jessen Vidal (FATEC SJC), durante o 5º e 6º período do curso de Tecnologia em Gestão da Produção Industrial, pelos alunos Luis Felipe Porto e Rodrigo da Silva Oliveira.
 
 O objetivo do projeto é automatizar e padronizar o processo de solicitação de compras, orçamentos, aprovação, recebimento e controle de estoque de materiais de uma empresa de porte pequeno, por meio de uma planilha integrada com formulários e um dashboard gerencial para monitoramento e interação no Power BI.
 
 O fluxo completo é descrito no Trabalho de Graduação [disponível aqui](https://drive.google.com/file/d/1il2iBtzbF8Q_8AwS4Z1RSmsinUmUGz2x/view?usp=sharing).
 
-# Tecnologias utilizadas
+## Tecnologias utilizadas
 - Excel VBA (macros integradas à planilha de controle)
 - Google Forms
 - Google Sheets + Google Apps Script
 - Power BI
 
-# Estrutura do projeto
+## Estrutura do projeto
 🔹 **Aba 1 — Solicitação de Orçamento**  
 - [`Sub EnviarEmailsSolicitacaoDeOrcamento()`](vba/aba1/EnviarEmailsSolicitacaoDeOrcamento.bas): Responsável por enviar e-mails com links personalizados para preenchimento do Google Forms para cada item com status "Solicitar orçamento".
 - [`Sub registrarNovoItem()`](vba/aba1/registrarNovoItem.bas): Registra um novo item de solicitação na planilha, a partir dos campos preenchidos pelo solicitante.  
@@ -35,7 +37,7 @@ O fluxo completo é descrito no Trabalho de Graduação [disponível aqui](https
 🔹 **Google Apps Script**  
 - [`Gerador de ticket ID.gs`](google-apps-script/Gerador_TicketID.gs): Código executado automaticamente após o envio de cada resposta no Google Forms. Gera um código identificador único (Ticket ID) para rastrear o pedido ao longo do fluxo.
 
-# Resultado esperado
+## Resultado esperado
 Esse sistema proporciona:
 - Automação do fluxo de compras;
 - Padronização dos registros;
