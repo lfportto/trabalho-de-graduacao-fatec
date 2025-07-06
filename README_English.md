@@ -44,3 +44,9 @@ This system provides:
 - Greater traceability of orders;  
 - Real-time inventory control;  
 - Management visualization through Power BI.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+## Tags
+`#management` `#monitoring` `#dataanalysis` `#data` `#automation` `#processes` `#inventorycontrol` `#inventory` `#budget` `#powerbi` `#bi` `#businessintelligence` `#dashboard`
