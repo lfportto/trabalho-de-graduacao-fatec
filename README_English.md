@@ -37,6 +37,15 @@ The complete workflow is described in the Graduation Project [available here](ht
 🔹 **Google Apps Script**  
 - [`Gerador de ticket ID.gs`](google-apps-script/Gerador_TicketID.gs): Code automatically executed after each Google Forms submission. Generates a unique identifier code (Ticket ID) to track the order throughout the workflow.
 
+## Practical Demonstration
+To better illustrate how the developed system works, we provide below two demonstration videos:
+- **Control Spreadsheet**  
+Complete demonstration of the Excel automation implemented with VBA, from the initial request to inventory control.  
+🔗 [Access control spreadsheet video](https://drive.google.com/file/d/1RCDfzz8fyWXdfm5Tl847lI0F2ErZQhAA/view?usp=sharing)
+- **Interactive Dashboard in Power BI**  
+Visualization of consolidated data, with filters, graphs, and automatically updated indicators.  
+🔗 [Access Power BI dashboard video](https://drive.google.com/file/d/1RBGesgxgaofLLq6AVJuj7yKJ8E_lGSer/view?usp=sharing)
+
 ## Expected Outcome
 This system provides:
 - Automation of the purchase flow;  
