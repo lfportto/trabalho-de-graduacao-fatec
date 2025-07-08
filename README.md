@@ -37,6 +37,15 @@ O fluxo completo é descrito no Trabalho de Graduação [disponível aqui](https
 🔹 **Google Apps Script**  
 - [`Gerador de ticket ID.gs`](google-apps-script/Gerador_TicketID.gs): Código executado automaticamente após o envio de cada resposta no Google Forms. Gera um código identificador único (Ticket ID) para rastrear o pedido ao longo do fluxo.
 
+## Demonstração prática
+Para ilustrar melhor o funcionamento do sistema desenvolvido, disponibilizamos abaixo dois vídeos demonstrativos:
+- **Planilha de Controle**  
+Demonstração completa da automação implementada no Excel com VBA, desde a solicitação até o controle de estoque.  
+🔗 [Acessar vídeo da planilha de controle](https://drive.google.com/file/d/1RCDfzz8fyWXdfm5Tl847lI0F2ErZQhAA/view?usp=sharing)
+- **Dashboard Interativo no Power BI**  
+Visualização dos dados consolidados, com filtros, gráficos e indicadores atualizados automaticamente.  
+🔗 [Acessar vídeo do dashboard no Power BI](https://drive.google.com/file/d/1RBGesgxgaofLLq6AVJuj7yKJ8E_lGSer/view?usp=sharing)
+
 ## Resultado esperado
 Esse sistema proporciona:
 - Automação do fluxo de compras;
