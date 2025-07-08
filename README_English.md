@@ -49,4 +49,4 @@ This system provides:
 This project is licensed under the [MIT License](LICENSE).
 
 ## Tags
-`#management` `#monitoring` `#dataanalysis` `#data` `#automation` `#processes` `#inventorycontrol` `#inventory` `#budget` `#powerbi` `#bi` `#businessintelligence` `#dashboard`
+`#management` `#monitoring` `#dataanalysis` `#data` `#automation` `#processes` `#inventorycontrol` `#inventory` `#budget` `#powerbi` `#bi` `#businessintelligence` `#dashboard` `#excel` `#vba` `#storytelling` `#fatec`
