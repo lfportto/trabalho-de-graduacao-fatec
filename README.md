@@ -49,4 +49,4 @@ Esse sistema proporciona:
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
 
 ## Tags
-`#gestao` `#monitoramento` `#analisededados` `#dados` `#automacao` `#processos` `#estoque` `#inventario` `#orcamento` `#powerbi` `#bi` `#businessintelligence` `#dashboard`
+`#gestao` `#monitoramento` `#analisededados` `#dados` `#automacao` `#processos` `#estoque` `#inventario` `#orcamento` `#powerbi` `#bi` `#businessintelligence` `#dashboard` `#excel` `#vba` `#storytelling` `#fatec`
